@@ -8,7 +8,7 @@ const app = express();
 // Configuration for your QuickBooks app
 const clientId = 'ABRJTQ4dR43hWwyTSTiwC1n8E7suExD0XpwVoQsvdu7MPfqLtW'; // Replace with your app's Client ID
 const clientSecret = '2pChmqkYU1wM6jVFxtHRzJwGoMejYQ45r8WWFbKo'; // Replace with your app's Client Secret
-const redirectUri = 'https://lyonsledger.herokuapp.com/callback'; // Replace with your Redirect URI
+const redirectUri = 'https://lyonsledger-689f101ee100.herokuapp.com/callback'; // Replace with your Redirect URI
 const sandboxCompanyId = '9341453379095730'; // Replace with your company ID
 
 let accessToken = ''; // Access token will be dynamically fetched
